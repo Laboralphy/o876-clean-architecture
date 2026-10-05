@@ -1,0 +1,22 @@
+{
+    "name": "clean-architecture-awilix-example",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "tsx src/main.ts",
+        "test": "vitest run",
+        "typecheck": "tsc --noEmit",
+        "format": "prettier --write src tests"
+    },
+    "dependencies": {
+        "awilix": "^13.0.5",
+        "zod": "^4.6.5"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.4",
+        "prettier": "^3.9.9",
+        "tsx": "^4.23.15",
+        "typescript": "^7.0.2",
+        "vitest": "^5.0.3"
+    }
+}
